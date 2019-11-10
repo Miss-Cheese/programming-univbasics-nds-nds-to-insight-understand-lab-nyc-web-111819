@@ -10,10 +10,11 @@ end
 
 
 def print_first_directors_movie_titles
-  row_index = 0
-  element_index = 0
-  while element_index < directors_database[row_index].count do
-    puts directors_database[:name][:movies][:title]
-    element_index += 1
-  end
+  # row_index = 0
+  # element_index = 0
+  # while element_index < directors_database[row_index].count do
+  #   puts directors_database[:name][:movies][:title]
+  #   element_index += 1
+  # end
+  directors_database[0]
 end
