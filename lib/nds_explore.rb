@@ -16,8 +16,15 @@ def print_first_directors_movie_titles
   #   puts directors_database[:name][:movies][:title]
   #   element_index += 1
   # end
-  puts directors_database[0][:movies][0][:title]
-  puts directors_database[0][:movies][1][:title]
-end
+  # puts directors_database[0][:movies][0][:title]
+  # puts directors_database[0][:movies][1][:title]
 
-print_first_directors_movie_titles
+  spielberg_movies = directors_database[0][:movies]
+  counter = 0
+
+  while counter < spielberg_movies.count
+    puts spielberg_movies[counter]
+    counter += 1
+  end
+
+end
